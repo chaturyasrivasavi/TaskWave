@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submissions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="student_submissions.css">
+</head>
+<body>   
+    <header class="fixed-header">
+        <h3 style="margin: 0;">Submissions</h3>
+    </header>
+    <div class="container main-body">
+        <div class="row">
+            <div class="col-md-8">
+                <!-- Submission Container 1 -->
+                <div class="submission-container">
+                    <div class="submission-header">
+                        <h5>Subject Name 1</h5>
+                    </div>
+                    <div class="submission-info">
+                        <p>Faculty: Faculty Name 1</p>
+                        <p>Marks Awarded: 4/5</p>
+                        <p>Date of Submission: July 1, 2024</p>
+                    </div>
+                    <button class="tick-button">Done</button>
+                    <button class="tick-button verified-tick">Verified</button>
+                </div>
+
+                <!-- Submission Container 2 -->
+                <div class="submission-container">
+                    <div class="submission-header">
+                        <h5>Subject Name 2</h5>
+                    </div>
+                    <div class="submission-info">
+                        <p>Faculty: Faculty Name 2</p>
+                        <p>Marks Awarded: 5/5</p>
+                        <p>Date of Submission: June 28, 2024</p>
+                    </div>
+                    <button class="tick-button">Done</button>
+                    <button class="tick-button verified-tick">Verified</button>
+
+                </div>
+
+                <!-- Repeat for more submissions -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Semester</h5>
+                        <p class="card-text">3rd Year 1st Semester </p>
+                        <p class="card-text">Branch: Computer Science and Engineering </p>
+                        <p class="card-text">Section: B </p>
+                        <p class="card-text">Registration Number: ABC12345</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="home-button" onclick="redirectToDashboard()">Back to Dashboard</button>
+
+    <script>
+        // JavaScript function to redirect to student dashboard
+        function redirectToDashboard() {
+            window.location.href = "student_dash.html";
+        }
+    </script>
+</body>
+</html>

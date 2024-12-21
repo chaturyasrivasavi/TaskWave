@@ -1,0 +1,109 @@
+body {
+    margin-top: 70px; /* Adjusted to accommodate fixed header */
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    z-index: 1000;
+}
+
+.main-body {
+    padding: 90px 15px 15px; /* Adjusted to push content below fixed header */
+}
+
+.assignment-container {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    position: relative; /* Added for positioning tick button */
+}
+
+.assignment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.assignment-header h5 {
+    margin: 0;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.assignment-info {
+    margin-bottom: 10px;
+}
+
+.assignment-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.tick-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: yellow;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tick-button.submitted {
+    background-color: #28a745; /* Green color when submitted */
+}
+
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.home-button:hover {
+    background-color: #0056b3;
+}

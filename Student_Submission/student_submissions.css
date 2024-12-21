@@ -1,0 +1,82 @@
+body {
+    margin-top: 70px; /* Adjusted to accommodate fixed header */
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    z-index: 1000;
+}
+
+.main-body {
+    padding: 90px 15px 15px; /* Adjusted to push content below fixed header */
+}
+
+.submission-container {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    position: relative; /* Added for positioning tick buttons */
+}
+
+.submission-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.submission-header h5 {
+    margin: 0;
+}
+
+.submission-info {
+    margin-bottom: 10px;
+}
+
+.submission-details {
+    margin-top: 10px;
+}
+
+.tick-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: yellow; /* Default yellow color for "done" */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.verified-tick {
+    background-color: green; /* Green color for "verified" by faculty */
+}
+
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.home-button:hover {
+    background-color: #0056b3;
+}

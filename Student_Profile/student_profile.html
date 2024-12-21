@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="student_profile.css">
+</head>
+<body>   
+    <div class="container">
+        <div class="main-body">
+        
+            <div class="row gutters-sm">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-items-center text-center">
+                                <img src="profile.png" alt="Student" class="rounded-circle" width="150">
+                                <div class="mt-3">
+                                    <h4>Rishi</h4>
+                                    <p class="text-secondary mb-1">Year: 3rd Semester: 1</p>
+                                    <p class="text-muted font-size-sm">Branch: Computer Science and Engineering</p>
+                                    <p class="text-muted font-size-sm">Section: B</p>
+                                    <p class="text-muted font-size-sm">Registration Number: ABC12345</p>
+                                    <p class="text-muted font-size-sm">CGPA:8.91</p>
+                                    <p class="text-muted font-size-sm">Hosteller</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="home-button" onclick="redirectToHome()">Back</button>
+
+    <script>
+        // JavaScript function to redirect to home.html
+        function redirectToHome() {
+            window.location.href = "student_dash.html";
+        }
+    </script>
+</body>
+</html>
